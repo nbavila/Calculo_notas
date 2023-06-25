@@ -1,0 +1,29 @@
+package empresa;
+
+import java.util.Scanner;
+
+public class Simulador_notas {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Quantos alunos serão calculados a nota? ");
+		int qtd = teclado.nextInt();
+		int i = 0;
+		while(i < qtd) {
+			i += 1;
+		System.out.print("Digite seu nome: ");
+		String nome = teclado.next();
+		
+		System.out.print("Digite sua primeira nota: ");
+		double nota1 = teclado.nextDouble();
+		
+		System.out.print("Digite sua segunda nota: ");
+		double nota2 = teclado.nextDouble();
+		
+		System.out.print("Digite sua terceira nota: ");
+		double nota3 = teclado.nextDouble();
+		}
+	}
+
+}
